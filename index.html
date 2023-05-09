@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Babalola's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="assets/favico.svg" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/3be270cef8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="assets/favico.svg" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#Home" class="nav_link">Home</a></li>
+                    <li><a href="#about" class="nav_link">About</a></li>
+                    <li><a href="resume.html" class="nav_link">Resume</a></li>
+                    <li><a href="#services" class="nav_link">Services</a></li>
+                    <li><a href="#projects" class="nav_link">Projects</a></li>
+                    <li><a href="#contact" class="nav_link">Contact</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="ai"><img src="assets/Avatar.png" class="avatar"></div>
+            <div class="header-text">
+                <div class="dynamic-txt">
+                    <h1 class="intro">Hi, I'm <span id="span">Babalola Rotimi</span>
+                        <p class="cont"> a <span>Developer.</span></p></h1>
+                </div>
+                <div class="des">
+                    <p class=" description">I design, create, maintain websites and web applications
+                        using a combination of programming languages, frameworks, and tools.
+                        I build dynamic and interactive websites that can be accessable by clients &
+                        users from anywhere in the world with modern frontend tools.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-------------------------About------------------------>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="Assets/user.JPG">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="subtitle">About Me</h1>
+                    <p>Hello, I'm Rotimi Babalola - a frontend developer - a graduate with passion for creating effective and innovative solutions and 
+                       websites that helps compaines or individual businesses operate more effectively and increase productiviy. I love linking up and 
+                       welcoming new avenues to strenghten my skills and knowlegde. <br> I have 1+ year experience in web development and creating
+                       content. I love to watch, play football and hangout with family and friends also.
+                    </p>
+                    <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('languages')">Languages</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web development</span><br>Website development</li>
+                            <li><span>Web Designer</span><br>Web app Designing</li>
+                            <li><span>Content Creation</span><br>Creating explicit web contents</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="languages">
+                        <ul>
+                            <li><span>Html</span><br>HyperText Mark-up Language</li>
+                            <li><span>CSS</span><br>Cassading Style Sheet <br>Tailwind & Bootstrap</li>
+                            <li><span>JS</span><br>JavaScript</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>HiiT</span><br>Web development 2022-2023</li>
+                            <li><span>Landmark University</span><br>Microbiology 2018-2022</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--------Services-------->
+    <div id="services">
+        <div class="container">
+            <h1 class="subtitle">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Development</h2>
+                    <p>I develop and build wesites and web apps from scratch to contribute
+                       and make relevant contributions to a clients or compaines product. 
+                    </p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>Web Design</h2>
+                    <p> I design web apps and websites by  planning, and implementing web tools 
+                        in a way that is functional and offers a good user experience. 
+                        User experience is paramount for easy intaraction with the web. 
+                    </p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-lightbulb"></i>
+                    <h2>Content Creation</h2>
+                    <p>I create valuable contents and ideas neccessary for clients in improving the 
+                       quality of their products or websites for easier and better understanding.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-------------Projects--------->
+    <div id="projects"> 
+        <div class="container">
+            <h1 class="subtitle">My Featured Projects</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="Assets/work-1.jpeg">
+                    <div class="layer">
+                        <h3>Sueve.co Website</h3>
+                        <p>The site contains products marketed by sueve.co
+                           accessable from anywhere. Built with Html and 
+                           tailwind CSS. See respo below 
+                        </p>
+                        <a href="https://github.com/justbabss/Sueve.co"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Assets/work-2">
+                    <div class="layer">
+                        <h3>Telsa Landing Page</h3>
+                        <p>I recreated Telsa's landing page with their products
+                           and services with tailwind CSS and Html. See respo below 
+                        </p>
+                        <a href="https://github.com/justbabss/Telsa-Landing-Page"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Assets/work-3.jpeg">
+                    <div class="layer">
+                        <h3>Weather Web App</h3>
+                        <p>This Weather app shows the current Weather condition
+                           of a city/country, built with Html,Vanila CSS & JavaScript.
+                           See respo below 
+                        </p>
+                        <a href="https://github.com/justbabss/Weather-App"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="https://github.com/justbabss?tab=repositories" class="btn">See More</a>
+        </div>
+    </div>
+
+    <!----------Contact------------>
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="subtitle">Contact Me</h1>
+                    <p> <i class="fa-solid fa-paper-plane"></i>@feyibabalola2000@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i>+234 813 571 9181</p>
+                    <div class="social-icons">
+                        <a href="https://github.com/justbabss" target="_blank"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://instagram.com/_dev.babs" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://twitter.com/justbabss" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="https://www.linkedin.com/in/rotimi-babalola-a41768248/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="Babalola's Resume.pdf" download class="btn btn2">Download Resume</a>
+                </div>
+                <div class="contact-right">
+                    <form onsubmit="sendEmail(); reset(); return false;">
+                        <input type="text" name="Name" placeholder="Your Name" id="name" required>
+                        <input type="email" name="email" placeholder="Your Email" id="email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message" id="area"></textarea>
+                        <button type="submit" class="btn btn2" onclick="sendEmail(); reset(); return false;">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>@Babalola Rotimi 2023</p>
+        </div>
+    </div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu")
+
+        function openmenu(){
+            sidemenu.style.right = "0"
+        }
+
+        function closemenu(){
+            sidemenu.style.right = "-200px"
+        }
+    </script>
+
+<script src="https://smtpjs.com/v3/smtp.js"></script>
+
+<script>
+    const msg = document.getElementById("msg");
+
+    function sendEmail(){
+        Email.send({
+        Host : "smtp.elasticemail.com",
+        Username : "feyibabalola2000@gmail.com",
+        Password : "415C7124FC2DDFBCFAF1F3FF8F5671537B26",
+        To : "feyibabalola2000@gmail.com",
+        From : document.getElementById("email").value,
+        Subject : "Portfolio Message",
+        Body : "Name: " + document.getElementById("name").value
+               + "<br> Email: " + document.getElementById("email").value 
+               + "<br> Message: " + document.getElementById("area").value 
+}).then(response => {
+    msg.innerHTML = "Message Delivered Successfully"
+    setTimeout(function(){
+        msg.innerHTML = ""
+    },5000)
+}
+);
+    }
+</script>
+</body>
+</html>
