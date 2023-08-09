@@ -52,7 +52,7 @@ nav ul li a::after{
     content:'';
     width: 0;
     height: 3px;
-    background-color: #ff004f;
+    background-color: #6495ED;
     position: absolute;
     left: 0 ;
     bottom: -6px;
@@ -97,27 +97,7 @@ nav ul li a:hover::after{
 }
 
 .header-text h1 #span{
-    color: #ff004f;
-}
-.dynamic-txt p ::after{
-    content: "";
-    position:absolute;
-    background-color: #080808;
-    left: 15%;
-    height: 10%;
-    width: 35%;
-    border-left: 2px solid white;
-    animation: typing 8s steps(10) infinite;
-}
-
-@keyframes typing {
-    40%,
-    60% {
-        left: calc(35% + 2px);
-    }
-    100%{
-        left: 6%;
-    }
+    color: #6495ED;
 }
 
 /*--------Resume----------*/
@@ -178,7 +158,7 @@ nav ul li a:hover::after{
     content: '';
     width: 0;
     height: 3px;
-    background-color: #ff004f;
+    background-color: #6495ED;
     position: absolute;
     left: 0;
     bottom: -8px;
@@ -196,7 +176,7 @@ nav ul li a:hover::after{
 }
 
 .tab-contents ul li span{
-    color:#b54769 ;
+    color:#6495ED ;
     font-size: 14px;
 }
 
@@ -251,7 +231,7 @@ nav ul li a:hover::after{
 }
 
 .services-list div:hover{
-    background-color: #ff004f;
+    background-color: #6495ED;
     transform: translateY(-10px);
 }
 
@@ -285,7 +265,7 @@ nav ul li a:hover::after{
 .layer{
     width: 100%;
     height: 0;
-    background: linear-gradient(rgba(0,0,0,0.6), #ff004f);
+    background: linear-gradient(rgba(0,0,0,0.6), #6495ED);
     border-radius: 10px;
     position: absolute;
     left: 0;
@@ -308,7 +288,7 @@ nav ul li a:hover::after{
 
 .layer a{
     margin-top: 20px;
-    color: #ff004f;
+    color: #6495ED;
     text-decoration: none;
     font-size: 18px;
     line-height: 60px;
@@ -331,7 +311,7 @@ nav ul li a:hover::after{
     display: block;
     margin: 50px auto;
     width: fit-content;
-    border: 1px solid #ff004f;
+    border: 1px solid #6495ED;
     padding: 14px 50px;
     border-radius: 6px;
     text-decoration: none;
@@ -341,7 +321,7 @@ nav ul li a:hover::after{
 }
 
 .btn:hover{
-    background: #ff004f;
+    background: #6495ED;
 }
 
 /*-------contact-----------*/
@@ -359,7 +339,7 @@ nav ul li a:hover::after{
 }
 
 .contact-left p i{
-    color: #ff004f;
+    color: #6495ED;
     margin-right: 15px;
     font-size: 25px;
 }
@@ -379,13 +359,13 @@ nav ul li a:hover::after{
 }
 
 .social-icons a:hover{
-    color: #ff004f;
+    color: #6495ED;
     transform: translateY(-5px);
 }
 
 .btn.btn2{
     display: inline-block;
-    background: #ff004f;
+    background: #6495ED;
     cursor: pointer;
 }
 
@@ -464,7 +444,7 @@ form .btn2{
     }
 
     nav ul{
-        background: #ff004f;
+        background: #6495ED;
         position: fixed;
         top: 0;
         right: -200px;
